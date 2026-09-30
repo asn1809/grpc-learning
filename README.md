@@ -23,3 +23,5 @@
 1. Create a dummy.protoc in greet/proto directory
 1. Using terminal run the command "protoc -Igreet/proto --go_out=. --go_opt=module=github.com/asn1809/grpc-learning --go-grpc_out=. --go-grpc_opt=module=github.com/asn1809/grpc-learning greet/proto/dummy.proto"
 1. make greet will generate the proto go files from the dummy.proto
+1. Add server main.go code and then run make greet, will create a server binary in bin/greet
+1. Run "./bin/greet/server" from root directory, this will start the server
